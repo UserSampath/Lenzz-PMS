@@ -1,0 +1,92 @@
+.sideBarContainer {
+  display: flex;
+}
+
+.main {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  background-color: #075d88;
+  color: rgb(245, 245, 246);
+  height: 100vh;
+  width: 220px;
+  transition: all 0.2s;
+}
+
+.topSection {
+  margin-top: 50px;
+  display: flex;
+  /* align-items: center; */
+  padding: 20px, 15px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 80px;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.bars {
+  font-size: 25px;
+  display: flex;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.link {
+  display: flex;
+  font-size: 30px;
+  color: rgb(18, 106, 183);
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.active {
+  color: rgb(255, 255, 255);
+  background: #075d88;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  display: flex;
+  font-size: 30px;
+  text-decoration: none;
+}
+.noActive {
+  background: #075d88;
+  color: rgb(249, 249, 249);
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  display: flex;
+  font-size: 30px;
+  text-decoration: none;
+}
+.noActive:hover {
+  background: hsla(199, 58%, 66%, 0.589);
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+}
+FaBars {
+  margin-left: 20px;
+}
+
+.ss {
+  color: rgb(43, 223, 100);
+}
+/* .container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  margin-right: 0px;
+} */
